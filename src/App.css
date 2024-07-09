@@ -1,0 +1,48 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url("images/1400773432_1884537284.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bank {
+    text-align: center;
+    color: #01010e;
+    font-size: 3em;
+    margin-top: 50px;
+}
+.btn-accept, .btn-danger {
+    width: 200px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.8em;
+    color: #ece7e7;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-accept {
+    background-color: #4CAF50;
+}
+
+.btn-danger {
+    background-color: #f44336;
+}
+
+.btn-accept:hover, .btn-danger:hover {
+    background-color: #45a049;
+}
+#input1 {
+    font-size: 40px;
+}
